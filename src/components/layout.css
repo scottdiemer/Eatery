@@ -9,6 +9,11 @@
   --mainYellow: #d2aa5c;
 }
 
+@font-face {
+  src: url("../fonts/Caveat-Regular.ttf");
+  font-family: Caveat;
+}
+
 body {
   font-family: "Caveat", cursive;
   color: black;
