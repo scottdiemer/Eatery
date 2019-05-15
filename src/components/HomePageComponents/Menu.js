@@ -40,6 +40,9 @@ const Menu = () => {
           }}
         />
       </ProductList>
+      <Link to="/menu/" style={{ textDecoration: "none" }}>
+        <SectionButton style={{ margin: "2rem auto" }}>Menu</SectionButton>
+      </Link>
     </Section>
   )
 }
