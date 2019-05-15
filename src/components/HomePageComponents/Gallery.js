@@ -20,7 +20,7 @@ const GET_IMAGES = graphql`
   }
 `
 
-function Gallery({}) {
+const Gallery = () => {
   return (
     <StaticQuery
       query={GET_IMAGES}
